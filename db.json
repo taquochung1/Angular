@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "productName": "Earth",
+      "productCode": "GDN-0015",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as25"
+    },
+    {
+      "productName": "Water",
+      "productCode": "GDN-0016",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as26"
+    },
+    {
+      "productName": "FIre",
+      "productCode": "GDN-0017",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as26"
+    },
+    {
+      "productName": "Air",
+      "productCode": "GDN-0018",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as27"
+    },
+    {
+      "productName": "Tree",
+      "productCode": "GDN-0019",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as28"
+    },
+    {
+      "productName": "Wood",
+      "productCode": "GDN-0020",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as29"
+    },
+    {
+      "productName": "Wooden",
+      "productCode": "GDN-0018",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as30"
+    },
+    {
+      "productName": "Plastic",
+      "productCode": "GDN-0018",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as31"
+    },
+    {
+      "productName": "Plastic",
+      "productCode": "GDN-0018",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as32"
+    },
+    {
+      "productName": "Plastic",
+      "productCode": "GDN-0018",
+      "releaseDate": "March 19,2016",
+      "description": "leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "starRating": 5,
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "id": "as33"
+    }
+  ]
+}

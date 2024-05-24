@@ -1,0 +1,58 @@
+<div class="content">
+    <div class="card">
+        <div class="card-header">
+            <p-messages [(value)]="messages" [enableService]="false" />
+            <h4>Product list</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-2">
+                <label class="col-2">Filter:</label>
+                <!-- <input type="text" class="form-control" [(ngModel)]="filterValue" placeholder="Search..."
+                (input)="filter()" /> -->
+                <input type="text" class="form-control">
+                <div class="col-7"></div>
+            </div>
+            <div class="row mb-4">
+                <h2 class="col-12">Filter by: </h2>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Image
+                        </th>
+                        <th>Product</th>
+                        <th>Code</th>
+                        <th>Available</th>
+                        <th>Price </th>
+                        <th>5 Star Rating</th>
+                        <th>Edit</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr *ngFor='let product of products'>
+                        <td><img [src]="product.imageUrl" width="50px"></td>
+                        <td>{{product.productName}}</td>
+                        <td>{{product.productCode}}</td>
+                        <td>{{product.releaseDate}}</td>
+                        <td>{{product.price}}</td>
+                        <td>
+                            <div class="crop" [style.width.px]="product.starRating*90/5" title="rating">
+                                <div style="width: 90px">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </div>
+                            </div>
+                        </td>
+                        <td><button class="btn btn-danger" (click)="handleDelete(product.id)">Xoa</button></td>
+                        <td><button class="btn btn-primary">Cap nhat</button></td>
+                        <td> <a class="btn btn-warning" [routerLink]="['/products', product.id]">xem san pham</a></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>

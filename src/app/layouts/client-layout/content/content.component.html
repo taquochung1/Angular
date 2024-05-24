@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="search">
+        <!-- <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div> -->
+        <input type="text" placeholder="Tìm kiếm" >
+    </div>
+    <div id="wp-products">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <ul id="list-products">
+            <div id="list-products" *ngFor="let product of products">
+                <div class="item">
+                    <img [src]="product.imageUrl" alt="">
+                    <div class="stars">{{product.starRating}}
+
+                    </div>
+
+                    <a [routerLink]="['/products', product.id]">
+                        <div class="name"> {{product.productName}}</div>
+                    </a>
+                    <div class="desc">{{product.description}}</div>
+                    <div class="price">{{product.price}}</div>
+                </div>
+            </div>
+
+
+
+        </ul>
+        <div class="list-page">
+            <div class="item">
+                <a href="">1</a>
+            </div>
+            <div class="item">
+                <a href="">2</a>
+            </div>
+            <div class="item">
+                <a href="">3</a>
+            </div>
+            <div class="item">
+                <a href="">4</a>
+            </div>
+
+        </div>
+    </div>
+    <div id="sale">
+        <div class="box-left">
+            <h1>
+                <span>Giảm giá lên đến</span>
+                <span>45%</span>
+            </h1>
+
+        </div>
+        <div class="box-right"></div>
+    </div>
+
+</body>
+
+</html>

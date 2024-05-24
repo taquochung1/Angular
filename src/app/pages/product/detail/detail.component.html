@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <nav>
+        <div class="logo">Logo</div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <i class="fas fa-shopping-cart"></i>
+        </ul>
+    </nav>
+    <div id="banner">
+        <div class="box-left">
+
+            <h2>Best things</h2>
+            <p>Providing nutrious foods for community</p>
+            <button>Buy now</button>
+        </div>
+        <div class="box-right">
+            <img src="img/img_1.png" alt="">
+            <img src="img/img_2.png" alt="">
+            <img src="img/img_3.png" alt="">
+        </div>
+        <div class="to-bottom">
+            <a href="">
+                <img src="../../../../assets/to_bottom.png" alt="">
+            </a>
+        </div>
+
+    </div> -->
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img [src]="product?.imageUrl" alt="">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="../../../../assets/product_1.png" alt="">
+                </div>
+                <div class="small-img">
+                    <img src="../../../../assets/product_2.png" alt="">
+                </div>
+                <div class="small-img">
+                    <img src="../../../../assets/product_3.png" alt="">
+                </div>
+                <div class="small-img">
+                    <img src="../../../../assets/product_4.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="url">Home > Product > Details</div>
+            <div class="pname">{{product?.productName}}</div>
+            <div class="desc">
+                {{product?.description}}
+            </div>
+            <div class="price">
+                {{product?.price}}
+            </div>
+            <div class="color">
+                <div class="combo">COMBO</div>
+                <div class="pcolor active">2 people</div>
+                <div class="pcolor">5 people</div>
+                <div class="pcolor">10 people</div>
+
+            </div>
+            <div class="quantity">
+                <p>Quantity: </p>
+                <input type="number" min="1" max="10" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn">Add to cart</button>
+                <button class="buy-btn">Buy now</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <p>Providing products with the best quality</p>
+        </div>
+        <div class="box">
+            <h3>Nội dung</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Home</a>
+                </div>
+                <div class="item">
+                    <a href="">Products</a>
+                </div>
+                <div class="item">
+                    <a href="">Contact</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Email</h3>
+            <form action="">
+                <input type="text" placeholder="Email">
+                <button>Click</button>
+            </form>
+        </div>
+    </div> -->
+</body>
+
+</html>
