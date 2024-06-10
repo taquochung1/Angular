@@ -1,0 +1,35 @@
+<div class="content">
+    <div class="card">
+        <div class="card-header">
+
+        </div>
+        <div class="card-body">
+            <div class="row mb-2">
+                <!-- <label class="col-2">Filter:</label> -->
+                <!-- <input type="text" class="form-control" [(ngModel)]="filterValue" placeholder="Search..."
+                (input)="filter()" /> -->
+                <!-- <input type="text" class="form-control"> -->
+                <div class="col-7"></div>
+            </div>
+            <!-- <div class="row mb-4">
+                <h2 class="col-12">Filter by: </h2>
+            </div> -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Edit</th>
+                    </tr>
+
+                    <tr *ngFor="let user of users">
+                        <td>{{user.email}}</td>
+                        <td>{{user.username}}</td>
+                        <!-- <td>{{user.password}}</td> -->
+                        <td><button class="btn btn-danger">Xóa</button></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>

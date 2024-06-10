@@ -9,3 +9,12 @@ export interface IProduct {
     imageUrl: string;
 
 }
+
+export interface AddProductForm {
+    productName: string | null | undefined;
+    price: number | null | undefined;
+    imageUrl: string | null | undefined;
+    releaseDate: string | null | undefined;
+    description: string | null | undefined;
+    productCode: string | null | undefined;
+}

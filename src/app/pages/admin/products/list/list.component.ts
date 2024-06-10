@@ -44,17 +44,18 @@ export class ProductListComponent {
       this.productService.deleteProduct(id).subscribe({
         next: () => {
           this.products = this.products.filter((product) => product.id !== id);
-          this.messages = [
-            {
-              severity:'success',
-              summary:'Thành công',
-              detail:'Xóa sản phẩm thành công',
+          // this.messages = [
+          //   {
+          //     severity:'success',
+          //     summary:'Thành công',
+          //     detail:'Xóa sản phẩm thành công',
 
-            },
-          ];
-          setTimeout(() => {
-            this.messages = []
-          }, 1000);
+          //   },
+          // ];
+          // setTimeout(() => {
+          //   this.messages = []
+          // }, 1000);
+          window.confirm("Xoa thanh cong")
         },
         error: (error) => {
           console.error(error.message);

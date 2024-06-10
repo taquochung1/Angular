@@ -1,78 +1,8 @@
 {
   "products": [
     {
-      "productName": "Earth",
-      "productCode": "GDN-0015",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as25"
-    },
-    {
-      "productName": "Water",
-      "productCode": "GDN-0016",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as26"
-    },
-    {
-      "productName": "FIre",
-      "productCode": "GDN-0017",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as26"
-    },
-    {
-      "productName": "Air",
-      "productCode": "GDN-0018",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as27"
-    },
-    {
-      "productName": "Tree",
-      "productCode": "GDN-0019",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as28"
-    },
-    {
-      "productName": "Wood",
-      "productCode": "GDN-0020",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as29"
-    },
-    {
-      "productName": "Wooden",
-      "productCode": "GDN-0018",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
-      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as30"
-    },
-    {
       "productName": "Plastic",
-      "productCode": "GDN-0018",
+      "productCode": "GDN-0022",
       "releaseDate": "March 19,2016",
       "description": "leaf rake with 48-inch wooden handle",
       "price": 19.95,
@@ -81,24 +11,167 @@
       "id": "as31"
     },
     {
-      "productName": "Plastic",
-      "productCode": "GDN-0018",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
+      "id": "fa2f",
+      "productName": "white1",
       "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as32"
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-30",
+      "description": "Mô tả sản phẩm"
     },
     {
-      "productName": "Plastic",
-      "productCode": "GDN-0018",
-      "releaseDate": "March 19,2016",
-      "description": "leaf rake with 48-inch wooden handle",
-      "price": 19.95,
-      "starRating": 5,
+      "id": "b40d",
+      "productName": "white2",
       "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "id": "as33"
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-31",
+      "description": "Mô tả sản phẩm"
+    },
+    {
+      "id": "3b7a",
+      "productName": "white3",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-32",
+      "description": "Mô tả sản phẩm"
+    },
+    {
+      "id": "50cb",
+      "productName": "black1",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-33",
+      "description": "mô tả sản phẩm"
+    },
+    {
+      "id": "c0d0",
+      "productName": "black2",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-34",
+      "description": "mô tả sản phẩm"
+    },
+    {
+      "id": "822d",
+      "productName": "blued1",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-35",
+      "description": "mô tả sản phẩm"
+    },
+    {
+      "productName": "blued2",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 19.95,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-36",
+      "description": "blued2",
+      "id": "7fcc"
+    },
+    {
+      "id": "f7c8",
+      "productName": "white3",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 30000000,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-30",
+      "description": "mo ta san pham "
+    },
+    {
+      "id": "fcab",
+      "productName": "white4",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": 400000,
+      "releaseDate": "March 19,2016",
+      "productCode": "GDN-0040",
+      "description": "mo ta san pham"
+    }
+  ],
+  "users": [
+    {
+      "email": "tathihongmy9398@gmail.com",
+      "password": "$2a$10$MbexdvsVaz/drWpf8zGvbuPUC4uE8ozG0YqVN6Ev//GA.x29yBIp.",
+      "id": 1
+    },
+    {
+      "email": "taquochung22122004@gmail.com",
+      "password": "$2a$10$ywAkVVEoDEGV.9CIaJ.Dae4gVPzmWbT1PMBJQMzLWuXZlO9jQjtjG",
+      "id": 2
+    },
+    {
+      "email": "hungtqph33187@gmail.com",
+      "password": "$2a$10$djgto.WlzO1141.79/3vFeTMvgTySBYUpG4uFSZbqoXbs7HpW795K",
+      "id": 3
+    },
+    {
+      "email": "hung1@gmail.com",
+      "password": "$2a$10$PF0hl5cOrixoH13qkeStbeklwnfniFmISGMYZU4CV0HKCH1k9RyaC",
+      "id": 4
+    },
+    {
+      "email": "hung2@gmail.com",
+      "password": "$2a$10$wNbT7GJJ/.P8tnZJR1YM.ODRq/wlQ.j4pFbO419BZFce6Frj8a3Hu",
+      "id": 5
+    },
+    {
+      "email": "hung3@gmail.com",
+      "password": "$2a$10$43/7ATzMbs.Nmf5nIB7qt.uxnk5aUPlXHoq9eQ3wYHllhXCcZLMTa",
+      "id": 6
+    },
+    {
+      "email": "hung4@gmail.com",
+      "password": "$2a$10$16HGl.IH.HnSaGlniSSV2uqb7nsc9flk7N2eUpIRhrLIljKHsnBIu",
+      "id": 7
+    },
+    {
+      "email": "h1@gmail.com",
+      "password": "$2a$10$wFi62PKdpeC8i0ii5gix6OwKrbuyctDHK8tIYYkWWGUBLi/TWnk9u",
+      "username": "ta quoc hung",
+      "confirmPassword": "hung123",
+      "id": 8
+    },
+    {
+      "email": "dasdadadada@gmail.com",
+      "password": "$2a$10$7CNe9hCfs/1zjX7gY2gAPuIi2mXwq0J4jcBuCrY.L7wb64qJq6Cbq",
+      "id": 9
+    },
+    {
+      "email": "email@gmail.com",
+      "password": "$2a$10$q0U55Z0KaS1X55tmKtYHxuxdhKpURoxn5osZUlm7JrRBjzdp4lzNi",
+      "id": 10
+    },
+    {
+      "email": "email2@gmail.com",
+      "password": "$2a$10$vN9JfRDKIGmFEwfvV2ham.QwycFj4GcP6qoI/qL/joQwYD4K8G5.y",
+      "username": "ta quoc hung",
+      "repass": "221204",
+      "id": 11
+    },
+    {
+      "email": "email3@gmail.com",
+      "password": "$2a$10$CrqaSkJC4enPlSUMZwucq.a0ecbJPyzjpGJxHbDc2eTjIEv/cWW/i",
+      "username": "ta quoc hugn",
+      "repass": "123456",
+      "id": 12
+    },
+    {
+      "email": "email10@gmail.com",
+      "password": "$2a$10$.5VrxW2V3FT4o3KeXifhpu38gbpDRNy1e.d.EPmb7zRMGOpJfxIuG",
+      "username": "ta quoc hung",
+      "repass": "123456",
+      "id": 13
+    },
+    {
+      "email": "email11@gmail.com",
+      "password": "$2a$10$vW2jaZqaTKe1vEvfkszoC.4dpw.UBBJViVkOjEoenXwli5VWeJIBe",
+      "username": "ta quoc hung",
+      "repass": "123456",
+      "id": 14
     }
   ]
 }

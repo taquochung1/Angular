@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { IProduct } from '../entities/Product';
+import { AddProductForm, IProduct } from '../entities/Product';
 
 @Injectable({
   providedIn: 'root'
@@ -18,8 +18,16 @@ export class ProductService {
     return this.http.delete(`${this.apiUrl}/${id}`);
   }
 
-  getProductDetail(id: number) {
+  getProductDetail(id: string) {
     return this.http.get<IProduct>(`${this.apiUrl}/${id}`);
+  }
+
+  createProduct(data: AddProductForm) {
+    return this.http.post(this.apiUrl, data);
+  }
+
+  updateProduct(id: string, data: AddProductForm) {
+    return this.http.put(`${this.apiUrl}/${id}`, data)
   }
 
 }

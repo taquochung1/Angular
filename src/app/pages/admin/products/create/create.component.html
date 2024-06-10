@@ -1,0 +1,66 @@
+<div class="container">
+    <form [formGroup]="addProductForm" (ngSubmit)="handleSubmit()">
+        <h2 class="mt-10">Thêm sản phẩm</h2>
+
+
+        <div class="mb-3 mt-5">
+            <label for="productName" class="form-label fw-bold">Tên sản phẩm</label>
+            <input type="text" class="form-control" id="productName" formControlName="productName"
+                placeholder="Tên sản phẩm">
+            <div
+                *ngIf="addProductForm.controls['productName'].errors?.['required'] && addProductForm.controls['productName'].touched">
+                <small class="text-danger text-small">Tên sản phẩm là bắt buộc</small>
+            </div>
+            <div
+                *ngIf="addProductForm.controls['productName'].errors?.['minlength'] && addProductForm.controls['productName'].touched">
+                <small class="text-danger text-small">Tối thiểu 6 kí tự</small>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="imageUrl" class="form-label fw-bold">Ảnh sản phẩm</label>
+            <input type="text" class="form-control" id="image" formControlName="imageUrl" placeholder="Ảnh sản phẩm">
+            <div
+                *ngIf="addProductForm.controls['imageUrl'].errors?.['required'] && addProductForm.controls['imageUrl'].touched">
+                <small class="text-danger text-small">Ảnh sản phẩm là bắt buộc</small>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label fw-bold">Giá sản phẩm</label>
+            <input type="number" class="form-control" id="price" formControlName="price" placeholder="Giá sản phẩm">
+            <div
+                *ngIf="addProductForm.controls['price'].errors?.['required'] && addProductForm.controls['price'].touched">
+                <small class="text-danger text-small">Giá sản phẩm là bắt buộc</small>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="productCode" class="form-label fw-bold">Mã sản phẩm</label>
+            <input type="text" class="form-control" id="price" formControlName="productCode" placeholder="Giá sản phẩm">
+            <div
+                *ngIf="addProductForm.controls['productCode'].errors?.['required'] && addProductForm.controls['productCode'].touched">
+                <small class="text-danger text-small">Giá sản phẩm là bắt buộc</small>
+            </div>
+        </div>
+
+
+
+        <div class="mb-3">
+            <label for="releaseDate" class="form-label fw-bold">Ngày ra mắt</label>
+            <input type="text" class="form-control" id="releaseDate" formControlName="releaseDate"
+                placeholder="Ngày ra mắt">
+            <div
+                *ngIf="addProductForm.controls['releaseDate'].errors?.['required'] && addProductForm.controls['releaseDate'].touched">
+                <small class="text-danger text-small">Ngày ra mắt sản phẩm là bắt buộc</small>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label fw-bold">Mô tả sản phẩm</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                formControlName="description">Mô tả</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" [disabled]="addProductForm.invalid">Thêm sản phẩm</button>
+    </form>
+</div>
